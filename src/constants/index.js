@@ -150,7 +150,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "Vasco was always a proactive skilled worker with problem solving capabilities and inovative mindset. His smart inputs and confident attitude are an asset for any team.",
     name: "Sofia Miranda",
     designation: "Automative System Engineer",
     company: "Yazaki Portugal",
@@ -158,7 +158,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "Vasco was a natural leader during the entire bootcamp. He was able to bring his vision while also guiding his colleagues along the way. I am confident that he will be a valuable addition to any company.",
+      "Vasco was a natural leader during the bootcamp. He was able to bring his vision while also guiding his colleagues along the way. I am confident that he will be a valuable addition to any company.",
     name: "Francisco Mendonça",
     designation: "City Manager",
     company: "Le Wagon",
