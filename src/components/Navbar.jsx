@@ -44,7 +44,7 @@ const Navbar = () => {
         >
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Vasco Sousa&nbsp;
+            Vasco &nbsp;
             <span className='sm:block hidden'> | Web Developer</span>
           </p>
         </Link>
@@ -62,7 +62,7 @@ const Navbar = () => {
             </li>
           ))}
           <li>
-            <a href="<https://files.fm/u/me3v2petx#/view/mk7fmxmfd>" className="text-secondary hover:text-white font-medium cursor-pointer" target="_blank">CV</a>
+            <a href="https://drive.google.com/file/d/1M-kg0yveHrWNWN6Z25V0Ndcc_y4fE_Ri/view?usp=share_link" className="text-secondary hover:text-white font-medium cursor-pointer" target="_blank">CV</a>
           </li>
         </ul>
 
