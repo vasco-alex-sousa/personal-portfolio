@@ -5,7 +5,8 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  build: {
-    outDir: path.join(__dirname, 'build'),
-  }
+  // build: {
+  //   outDir: path.join(__dirname, 'build'),
+  // }
+  base: "personal-portfolio"
 })
