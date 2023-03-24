@@ -5,8 +5,8 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  // build: {
-  //   outDir: path.join(__dirname, 'build'),
-  // }
+  build: {
+    lib: { entry: path.resolve (__dirname, "src/main.jsx") }
+  },
   base: "personal-portfolio"
 })
