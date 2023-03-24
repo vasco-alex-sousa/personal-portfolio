@@ -62,7 +62,7 @@ const Navbar = () => {
             </li>
           ))}
           <li>
-            <a href="https://drive.google.com/file/d/1JVcabcfxKM-ePU07EOP1x0iIj1cmsD4W/view?usp=sharing" className="text-secondary hover:text-white font-medium cursor-pointer" target="_blank">CV</a>
+            <a rel="noreferrer" href="https://drive.google.com/file/d/1JVcabcfxKM-ePU07EOP1x0iIj1cmsD4W/view?usp=sharing" className="text-secondary hover:text-white font-medium cursor-pointer" target="_blank">CV</a>
           </li>
         </ul>
 
@@ -95,7 +95,7 @@ const Navbar = () => {
                 </li>
               ))}
               <li>
-                <a href="https://drive.google.com/file/d/1JVcabcfxKM-ePU07EOP1x0iIj1cmsD4W/view?usp=sharing" className="text-secondary hover:text-white font-medium cursor-pointer" target="_blank">CV</a>
+                <a rel="noreferrer" href="https://drive.google.com/file/d/1JVcabcfxKM-ePU07EOP1x0iIj1cmsD4W/view?usp=sharing" className="text-secondary hover:text-white font-medium cursor-pointer" target="_blank">CV</a>
               </li>
             </ul>
           </div>
