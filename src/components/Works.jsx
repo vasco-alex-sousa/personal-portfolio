@@ -1,4 +1,4 @@
-import Tilt from 'react-tilt';
+import ParallaxTilt from 'react-parallax-tilt';
 import { motion } from 'framer-motion';
 
 import { styles } from '../styles';
@@ -10,7 +10,7 @@ import { fadeIn, textVariant } from '../utils/motion';
 const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <Tilt
+      <ParallaxTilt
         options={{
           max: 45,
           scale: 1,
@@ -53,7 +53,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
             </p>
           ))}
         </div>
-      </Tilt>
+      </ParallaxTilt>
     </motion.div>
   )
 }
