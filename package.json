@@ -3,35 +3,54 @@
   "homepage": "https://vasco-alex-sousa.github.io/personal-portfolio",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
-    "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4",
     "@emailjs/browser": "^3.10.0",
     "@react-three/drei": "^9.58.1",
     "@react-three/fiber": "^8.12.0",
     "framer-motion": "^10.8.3",
     "maath": "^0.5.3",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
     "react-parallax-tilt": "^1.7.118",
     "react-router-dom": "^6.9.0",
     "react-vertical-timeline-component": "^3.6.0",
+    "tailwindcss": "^3.2.7",
     "three": "^0.150.1"
   },
   "devDependencies": {
-    "@types/react": "^18.0.28",
-    "@types/react-dom": "^18.0.11",
-    "@vitejs/plugin-react": "^3.1.0",
     "autoprefixer": "^10.4.14",
     "gh-pages": "^5.0.0",
-    "postcss": "^8.4.21",
-    "tailwindcss": "^3.2.7",
-    "vite": "^4.2.0"
+    "postcss": "^8.4.21"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

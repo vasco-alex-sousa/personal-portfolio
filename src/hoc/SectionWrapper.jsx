@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { createElement } from 'react';
 
 import { styles } from '../styles';
 import { staggerContainer } from '../utils/motion';
@@ -16,7 +17,10 @@ function HOC() {
       <span className="hash-span" id={idName}>
         &nbsp;
       </span>
-      <Component />
+      {
+        createElement(Component)
+      }
+      {/* <Component /> */}
     </motion.section>
   )
 }
