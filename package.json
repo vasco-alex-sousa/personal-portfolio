@@ -1,15 +1,10 @@
 {
-  "name": "3d_portfolio",
-  "homepage": "https://vasco-alex-sousa.github.io/personal-portfolio",
+  "name": "personal-portfolio",
   "private": true,
   "version": "0.0.0",
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "dev": "vite",
-    "preview": "vite preview"
+    "build": "react-scripts build"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
