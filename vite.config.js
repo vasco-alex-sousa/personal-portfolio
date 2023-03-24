@@ -6,7 +6,11 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   build: {
-    lib: { entry: path.resolve (__dirname, "src/main.jsx") }
+    lib: {
+      entry: path.resolve(__dirname, "src/main.jsx"),
+      name: "personal portfolio",
+      fileName: (format) => `index.${format}.js`,
+    }
   },
   base: "personal-portfolio"
 })
